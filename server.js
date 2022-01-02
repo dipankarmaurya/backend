@@ -1,9 +1,16 @@
 const http = require("http");
-const port = 3000;
-const hostName = "0.0.0.0";
+const port = 3030;
+const hostName = "127.0.0.1";
+
 const server = http.createServer((req, res) => {
-  res.setHeader("content-type", "text/plan");
-  res.end("Hello Geekster");
+  console.log(req.url);
+  if (req.url == "/hello") {
+    res.setHeader("content-type", "text/plan");
+    res.end("Hello Geekster");
+  } else {
+    res.setHeader("content-type", "text/plan");
+    res.end("bad request");
+   }
 });
 
 server.listen(port, hostName, () => {
