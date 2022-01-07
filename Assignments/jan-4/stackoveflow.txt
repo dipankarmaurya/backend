@@ -1,0 +1,33 @@
+Homework for today's session is- 
+1. Define the following for stack overflow(refer https://stackoverflow.com/)- 
+a. Functional requirements 
+b. Non functional requirements 
+c. Additional requirements 
+d. Entities and attributes of the database schema.
+
+a. functional requirement
+  i)   user (CRUD)
+  ii)  Question (CRUD) / blogs
+  iii) Answer (CRUD) // comments
+  iv)  tags
+  v)   Upvote/Downvote
+  vi)  Question sorted by(recent,hot,week,month)
+  vii) Question searched by user_name tag ,most popular
+  viii) creating team
+
+  b. non-functional
+   i) scalability
+   ii) ACID
+
+  this can be in additional -->>> 
+  i) search for job(companies,jobs)
+  ii)newsletter
+
+  
+ ***** schema Design *****
+ 1) user
+      user_id
+      user_name
+      email
+      password
+ 2) Question/blog
