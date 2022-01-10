@@ -24,13 +24,21 @@ function findById(id) {
             finedBlog= blog;
         }
     })
-    
+    if (!finedBlog) {
+        console.log("blog not find");
+        return;
+    }
     return finedBlog;
 }
 
 function findByIdAndUpdateTitle(id,title) {
-let blog = findById(id);
+    let blog = findById(id);
+    if (!blog) {
+        console.log("blog not found");
+        return;
+    }
     blog.title = title;
+
     // console.log(blogs);
     upDateSheet(blogs)
     return blog;
@@ -39,6 +47,10 @@ let blog = findById(id);
 
 function findByIdAndDelete(id) {
     let newBlogs = blogs.filter(blog => blog.id != id);
+    if (newBlogs.length == blogs.length) {
+        console.log("blog not found ");
+        return;
+    }
     upDateSheet(newBlogs);
     return newBlogs;
     
