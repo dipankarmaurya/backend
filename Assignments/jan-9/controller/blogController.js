@@ -11,7 +11,7 @@ function upDateSheet(blogs) {
             return {"error": err}
         } else {
             console.log(
-                'file updated booking'
+                'file updated blog'
             )
         }
     })
