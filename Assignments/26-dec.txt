@@ -1,15 +1,15 @@
 Register on https://mockapi.io/, and create endpoints for bookmyshow, and try from postman.
 
  read update post delete  all movies 
-  https://61d5bc312b4f730017a82a1f.mockapi.io/bookmyshow/api/v1/movies
+  https://61d9c78bce86530017e3cc48.mockapi.io/bookmyshow/api/v1/movies
 
 read update post delete  by movie id
-  https://61d5bc312b4f730017a82a1f.mockapi.io/bookmyshow/api/v1/movies/1
+ https://61d9c78bce86530017e3cc48.mockapi.io/bookmyshow/api/v1/movies/1
 
 
  // get all theaytre by location  
- https://61d5bc312b4f730017a82a1f.mockapi.io/bookmyshow/api/v1/location
+https://61d9c78bce86530017e3cc48.mockapi.io/bookmyshow/api/v1/location
 
 
  // get all movie in a theatre
- https://61d5bc312b4f730017a82a1f.mockapi.io/bookmyshow/api/v1/theatre
+ https://61d9c78bce86530017e3cc48.mockapi.io/bookmyshow/api/v1/theatre
