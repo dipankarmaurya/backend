@@ -1,9 +1,8 @@
-1. Write and Illustrate functionalities in a blogging website.
-
+1.Write and Illustrate functionalities in a blogging website.
 
 1. landing page where a little information about website and sign in form;
 2. below the landing page user can see trending blogs
-2. user profile
+4. user profile
     i)show detais of user 
         a) user_name
         b) email
@@ -48,7 +47,7 @@ Non-functional requirements->
 *************************************************************************************************
 
 
-2. Write or illustrate of UI functionalities in a messaging application. 
+2.Write or illustrate of UI functionalities in a messaging application. 
 (Similar to https://socket.io/demos/chat/ ). Think of basic and additional/optional functionalities.
 
 // every user is authorized

@@ -1,0 +1,35 @@
+[
+    "slot1":{
+        "id":1,
+        "booked":"false",
+        "user_name":"null",
+        "user_id":"null",
+        "van_type":"null",
+        "booked_time":"null"
+    },
+    "slot2":{
+        "id":1,
+        "booked":"false",
+        "user_name":"null",
+        "user_id":"null",
+        "van_type":"null",
+        "booked_time":"null"
+    },
+    "slot3":{
+        "id":1,
+        "booked":"false",
+        "user_name":"null",
+        "user_id":"null",
+        "van_type":"null",
+        "booked_time":"null"
+    },
+    "slot4":{
+        "id":1,
+        "booked":"false",
+        "user_name":"null",
+        "user_id":"null",
+        "van_type":"null",
+        "booked_time":"null"
+    }
+
+]

@@ -2,9 +2,7 @@
 const http = require('http');
 const host = '127.0.0.1'
 const port = 5000;
-
 http.createServer((req, res) => {
-    
     if (req.url == "/blogs" && req.method == "GET") {
         res.setHeader("Content-type","Application/JSON")
         res.end(JSON.stringify(blogs))
